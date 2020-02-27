@@ -3,16 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B255F32D39EB957BA602AAD0 /* Pods_TabBar_Coordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1307CDA1539800B19A6CC5 /* Pods_TabBar_Coordinator.framework */; };
+		B98F0532B39CB5ABAD071174 /* Pods_TabBar_CoordinatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A936DB08C33651BAEF772D2B /* Pods_TabBar_CoordinatorTests.framework */; };
+		E9127AFA2F7E14DB9D689BE3 /* Pods_TabBar_Coordinator_TabBar_CoordinatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0903D31AEAFFAB721065C1 /* Pods_TabBar_Coordinator_TabBar_CoordinatorUITests.framework */; };
 		F70CCD89240855FA00A4BA66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CCD88240855FA00A4BA66 /* AppDelegate.swift */; };
 		F70CCD8D240855FA00A4BA66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CCD8C240855FA00A4BA66 /* ViewController.swift */; };
 		F70CCD922408560100A4BA66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70CCD912408560100A4BA66 /* Assets.xcassets */; };
 		F70CCD952408560100A4BA66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70CCD932408560100A4BA66 /* LaunchScreen.storyboard */; };
 		F70CCDA02408560200A4BA66 /* TabBar_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CCD9F2408560200A4BA66 /* TabBar_CoordinatorTests.swift */; };
 		F70CCDAB2408560200A4BA66 /* TabBar_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CCDAA2408560200A4BA66 /* TabBar_CoordinatorUITests.swift */; };
+		F71B1C6F2408595100E0F312 /* SwiftCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71B1C6E2408595100E0F312 /* SwiftCoordinator.framework */; };
+		F71B1C732408597100E0F312 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C722408597100E0F312 /* AppCoordinator.swift */; };
+		F71B1C742408597100E0F312 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C722408597100E0F312 /* AppCoordinator.swift */; };
+		F71B1C752408597100E0F312 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C722408597100E0F312 /* AppCoordinator.swift */; };
+		F71B1C7724085A0500E0F312 /* AppRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C7624085A0500E0F312 /* AppRootViewController.swift */; };
+		F71B1C7824085A0500E0F312 /* AppRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C7624085A0500E0F312 /* AppRootViewController.swift */; };
+		F71B1C7924085A0500E0F312 /* AppRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C7624085A0500E0F312 /* AppRootViewController.swift */; };
+		F71B1C7B2408651700E0F312 /* StackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C7A2408651700E0F312 /* StackingViewController.swift */; };
+		F71B1C7C2408651700E0F312 /* StackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C7A2408651700E0F312 /* StackingViewController.swift */; };
+		F71B1C7D2408651700E0F312 /* StackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C7A2408651700E0F312 /* StackingViewController.swift */; };
+		F71B1C7F2408657500E0F312 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71B1C7E2408657500E0F312 /* SnapKit.framework */; };
+		F71B1C83240866D100E0F312 /* StackingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C82240866D100E0F312 /* StackingCoordinator.swift */; };
+		F71B1C84240866D100E0F312 /* StackingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C82240866D100E0F312 /* StackingCoordinator.swift */; };
+		F71B1C85240866D100E0F312 /* StackingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C82240866D100E0F312 /* StackingCoordinator.swift */; };
+		F71B1C872408681D00E0F312 /* BoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C862408681D00E0F312 /* BoringViewController.swift */; };
+		F71B1C882408681D00E0F312 /* BoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C862408681D00E0F312 /* BoringViewController.swift */; };
+		F71B1C892408681D00E0F312 /* BoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C862408681D00E0F312 /* BoringViewController.swift */; };
+		F71B1C8B240868AC00E0F312 /* BoringCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C8A240868AC00E0F312 /* BoringCoordinator.swift */; };
+		F71B1C8C240868AC00E0F312 /* BoringCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C8A240868AC00E0F312 /* BoringCoordinator.swift */; };
+		F71B1C8D240868AC00E0F312 /* BoringCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B1C8A240868AC00E0F312 /* BoringCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01ACBFFED92D57398371C5AF /* Pods-TabBar Coordinator-TabBar CoordinatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar Coordinator-TabBar CoordinatorUITests.release.xcconfig"; path = "Target Support Files/Pods-TabBar Coordinator-TabBar CoordinatorUITests/Pods-TabBar Coordinator-TabBar CoordinatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4725B81E76CA615B26883572 /* Pods-TabBar CoordinatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar CoordinatorTests.debug.xcconfig"; path = "Target Support Files/Pods-TabBar CoordinatorTests/Pods-TabBar CoordinatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1307CDA1539800B19A6CC5 /* Pods_TabBar_Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBar_Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0903D31AEAFFAB721065C1 /* Pods_TabBar_Coordinator_TabBar_CoordinatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBar_Coordinator_TabBar_CoordinatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B629124531BDD3C820987CF /* Pods-TabBar CoordinatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar CoordinatorTests.release.xcconfig"; path = "Target Support Files/Pods-TabBar CoordinatorTests/Pods-TabBar CoordinatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BB8D55B1935C5250A19BB44 /* Pods-TabBar Coordinator-TabBar CoordinatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar Coordinator-TabBar CoordinatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-TabBar Coordinator-TabBar CoordinatorUITests/Pods-TabBar Coordinator-TabBar CoordinatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A936DB08C33651BAEF772D2B /* Pods_TabBar_CoordinatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBar_CoordinatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7E9D7FF66140211722AE9C /* Pods-TabBar Coordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar Coordinator.debug.xcconfig"; path = "Target Support Files/Pods-TabBar Coordinator/Pods-TabBar Coordinator.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BC9DF38A13745C2D9EF2B7 /* Pods-TabBar Coordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar Coordinator.release.xcconfig"; path = "Target Support Files/Pods-TabBar Coordinator/Pods-TabBar Coordinator.release.xcconfig"; sourceTree = "<group>"; };
 		F70CCD85240855FA00A4BA66 /* TabBar Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBar Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70CCD88240855FA00A4BA66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F70CCD8C240855FA00A4BA66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +77,14 @@
 		F70CCDA62408560200A4BA66 /* TabBar CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabBar CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70CCDAA2408560200A4BA66 /* TabBar_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar_CoordinatorUITests.swift; sourceTree = "<group>"; };
 		F70CCDAC2408560200A4BA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71B1C6E2408595100E0F312 /* SwiftCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71B1C722408597100E0F312 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F71B1C7624085A0500E0F312 /* AppRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootViewController.swift; sourceTree = "<group>"; };
+		F71B1C7A2408651700E0F312 /* StackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingViewController.swift; sourceTree = "<group>"; };
+		F71B1C7E2408657500E0F312 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71B1C82240866D100E0F312 /* StackingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingCoordinator.swift; sourceTree = "<group>"; };
+		F71B1C862408681D00E0F312 /* BoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringViewController.swift; sourceTree = "<group>"; };
+		F71B1C8A240868AC00E0F312 /* BoringCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71B1C7F2408657500E0F312 /* SnapKit.framework in Frameworks */,
+				B255F32D39EB957BA602AAD0 /* Pods_TabBar_Coordinator.framework in Frameworks */,
+				F71B1C6F2408595100E0F312 /* SwiftCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98F0532B39CB5ABAD071174 /* Pods_TabBar_CoordinatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +110,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9127AFA2F7E14DB9D689BE3 /* Pods_TabBar_Coordinator_TabBar_CoordinatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F19ABB72192AFA896C5EC69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F71B1C7E2408657500E0F312 /* SnapKit.framework */,
+				F71B1C6E2408595100E0F312 /* SwiftCoordinator.framework */,
+				7B1307CDA1539800B19A6CC5 /* Pods_TabBar_Coordinator.framework */,
+				9A0903D31AEAFFAB721065C1 /* Pods_TabBar_Coordinator_TabBar_CoordinatorUITests.framework */,
+				A936DB08C33651BAEF772D2B /* Pods_TabBar_CoordinatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C10670EC77AD9D012DB88EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E9D7FF66140211722AE9C /* Pods-TabBar Coordinator.debug.xcconfig */,
+				E5BC9DF38A13745C2D9EF2B7 /* Pods-TabBar Coordinator.release.xcconfig */,
+				9BB8D55B1935C5250A19BB44 /* Pods-TabBar Coordinator-TabBar CoordinatorUITests.debug.xcconfig */,
+				01ACBFFED92D57398371C5AF /* Pods-TabBar Coordinator-TabBar CoordinatorUITests.release.xcconfig */,
+				4725B81E76CA615B26883572 /* Pods-TabBar CoordinatorTests.debug.xcconfig */,
+				9B629124531BDD3C820987CF /* Pods-TabBar CoordinatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F70CCD7C240855FA00A4BA66 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +149,8 @@
 				F70CCD9E2408560200A4BA66 /* TabBar CoordinatorTests */,
 				F70CCDA92408560200A4BA66 /* TabBar CoordinatorUITests */,
 				F70CCD86240855FA00A4BA66 /* Products */,
+				6C10670EC77AD9D012DB88EA /* Pods */,
+				3F19ABB72192AFA896C5EC69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +167,15 @@
 		F70CCD87240855FA00A4BA66 /* TabBar Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				F71B1C6D2408593C00E0F312 /* coordinator */,
 				F70CCD88240855FA00A4BA66 /* AppDelegate.swift */,
 				F70CCD8C240855FA00A4BA66 /* ViewController.swift */,
 				F70CCD912408560100A4BA66 /* Assets.xcassets */,
 				F70CCD932408560100A4BA66 /* LaunchScreen.storyboard */,
 				F70CCD962408560100A4BA66 /* Info.plist */,
+				F71B1C7624085A0500E0F312 /* AppRootViewController.swift */,
+				F71B1C7A2408651700E0F312 /* StackingViewController.swift */,
+				F71B1C862408681D00E0F312 /* BoringViewController.swift */,
 			);
 			path = "TabBar Coordinator";
 			sourceTree = "<group>";
@@ -122,6 +198,16 @@
 			path = "TabBar CoordinatorUITests";
 			sourceTree = "<group>";
 		};
+		F71B1C6D2408593C00E0F312 /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F71B1C722408597100E0F312 /* AppCoordinator.swift */,
+				F71B1C82240866D100E0F312 /* StackingCoordinator.swift */,
+				F71B1C8A240868AC00E0F312 /* BoringCoordinator.swift */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F70CCDAF2408560200A4BA66 /* Build configuration list for PBXNativeTarget "TabBar Coordinator" */;
 			buildPhases = (
+				08558F482FA34B0DBD62A071 /* [CP] Check Pods Manifest.lock */,
 				F70CCD81240855FA00A4BA66 /* Sources */,
 				F70CCD82240855FA00A4BA66 /* Frameworks */,
 				F70CCD83240855FA00A4BA66 /* Resources */,
+				0A2DEF6B36762AB2D9DA9E36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F70CCDB22408560200A4BA66 /* Build configuration list for PBXNativeTarget "TabBar CoordinatorTests" */;
 			buildPhases = (
+				6DDDA896E01960D230E51807 /* [CP] Check Pods Manifest.lock */,
 				F70CCD972408560200A4BA66 /* Sources */,
 				F70CCD982408560200A4BA66 /* Frameworks */,
 				F70CCD992408560200A4BA66 /* Resources */,
@@ -164,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F70CCDB52408560200A4BA66 /* Build configuration list for PBXNativeTarget "TabBar CoordinatorUITests" */;
 			buildPhases = (
+				B7D37BBB3E202DBE96CAFD3C /* [CP] Check Pods Manifest.lock */,
 				F70CCDA22408560200A4BA66 /* Sources */,
 				F70CCDA32408560200A4BA66 /* Frameworks */,
 				F70CCDA42408560200A4BA66 /* Resources */,
+				73D22D6AC6D85BB54D07D8C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,13 +338,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08558F482FA34B0DBD62A071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBar Coordinator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A2DEF6B36762AB2D9DA9E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBar Coordinator/Pods-TabBar Coordinator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBar Coordinator/Pods-TabBar Coordinator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBar Coordinator/Pods-TabBar Coordinator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDDA896E01960D230E51807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBar CoordinatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D22D6AC6D85BB54D07D8C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBar Coordinator-TabBar CoordinatorUITests/Pods-TabBar Coordinator-TabBar CoordinatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBar Coordinator-TabBar CoordinatorUITests/Pods-TabBar Coordinator-TabBar CoordinatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBar Coordinator-TabBar CoordinatorUITests/Pods-TabBar Coordinator-TabBar CoordinatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D37BBB3E202DBE96CAFD3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBar Coordinator-TabBar CoordinatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F70CCD81240855FA00A4BA66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71B1C83240866D100E0F312 /* StackingCoordinator.swift in Sources */,
+				F71B1C732408597100E0F312 /* AppCoordinator.swift in Sources */,
 				F70CCD8D240855FA00A4BA66 /* ViewController.swift in Sources */,
+				F71B1C7B2408651700E0F312 /* StackingViewController.swift in Sources */,
+				F71B1C7724085A0500E0F312 /* AppRootViewController.swift in Sources */,
 				F70CCD89240855FA00A4BA66 /* AppDelegate.swift in Sources */,
+				F71B1C872408681D00E0F312 /* BoringViewController.swift in Sources */,
+				F71B1C8B240868AC00E0F312 /* BoringCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +461,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71B1C7824085A0500E0F312 /* AppRootViewController.swift in Sources */,
+				F71B1C742408597100E0F312 /* AppCoordinator.swift in Sources */,
 				F70CCDA02408560200A4BA66 /* TabBar_CoordinatorTests.swift in Sources */,
+				F71B1C7C2408651700E0F312 /* StackingViewController.swift in Sources */,
+				F71B1C8C240868AC00E0F312 /* BoringCoordinator.swift in Sources */,
+				F71B1C84240866D100E0F312 /* StackingCoordinator.swift in Sources */,
+				F71B1C882408681D00E0F312 /* BoringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +475,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71B1C7924085A0500E0F312 /* AppRootViewController.swift in Sources */,
+				F71B1C752408597100E0F312 /* AppCoordinator.swift in Sources */,
 				F70CCDAB2408560200A4BA66 /* TabBar_CoordinatorUITests.swift in Sources */,
+				F71B1C7D2408651700E0F312 /* StackingViewController.swift in Sources */,
+				F71B1C8D240868AC00E0F312 /* BoringCoordinator.swift in Sources */,
+				F71B1C85240866D100E0F312 /* StackingCoordinator.swift in Sources */,
+				F71B1C892408681D00E0F312 /* BoringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +628,7 @@
 		};
 		F70CCDB02408560200A4BA66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7E9D7FF66140211722AE9C /* Pods-TabBar Coordinator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -435,6 +648,7 @@
 		};
 		F70CCDB12408560200A4BA66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BC9DF38A13745C2D9EF2B7 /* Pods-TabBar Coordinator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +668,7 @@
 		};
 		F70CCDB32408560200A4BA66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4725B81E76CA615B26883572 /* Pods-TabBar CoordinatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,6 +691,7 @@
 		};
 		F70CCDB42408560200A4BA66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B629124531BDD3C820987CF /* Pods-TabBar CoordinatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,8 +714,9 @@
 		};
 		F70CCDB62408560200A4BA66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB8D55B1935C5250A19BB44 /* Pods-TabBar Coordinator-TabBar CoordinatorUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 552H65R858;
 				INFOPLIST_FILE = "TabBar CoordinatorUITests/Info.plist";
@@ -518,8 +735,9 @@
 		};
 		F70CCDB72408560200A4BA66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01ACBFFED92D57398371C5AF /* Pods-TabBar Coordinator-TabBar CoordinatorUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 552H65R858;
 				INFOPLIST_FILE = "TabBar CoordinatorUITests/Info.plist";

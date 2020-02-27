@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.0.1)
+  - SwiftCoordinator (0.2.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwiftCoordinator
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SwiftCoordinator
+
+SPEC CHECKSUMS:
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftCoordinator: ba00cc52398e10fdb3df8e0726660b3fddad4e68
+
+PODFILE CHECKSUM: a4319d70218eb4141389df88e412b9897dbf284d
+
+COCOAPODS: 1.8.4

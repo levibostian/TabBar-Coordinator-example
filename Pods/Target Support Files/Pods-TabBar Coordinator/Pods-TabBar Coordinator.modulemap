@@ -1,0 +1,6 @@
+framework module Pods_TabBar_Coordinator {
+  umbrella header "Pods-TabBar Coordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}
